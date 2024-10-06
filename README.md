@@ -1,3 +1,1 @@
-# DiffDGSS
-
-The code of DiffDGSS is about to be open-sourced.
+The code of the paper is about to be open-sourced.
