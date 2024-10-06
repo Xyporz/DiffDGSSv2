@@ -1,1 +1,1 @@
-The code of the paper is about to be open-sourced.
+The code will be open-sourced upon the acceptance of the paper.
