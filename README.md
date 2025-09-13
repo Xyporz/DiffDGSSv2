@@ -1,4 +1,4 @@
-## Towards Semantically Faithful Diffusion Representation for Generalizable Retinal Image Segmentation (TMI 2025)
+## Towards Semantically Faithful Diffusion Representation for Generalizable Retinal Image Segmentation
 
 [![Stars](https://img.shields.io/github/stars/Xyporz/DiffDGSSv2?style=flat-square)](https://github.com/Xyporz/DiffDGSSv2)
 [![Forks](https://img.shields.io/github/forks/Xyporz/DiffDGSSv2?style=flat-square)](https://github.com/Xyporz/DiffDGSSv2/fork)
@@ -38,7 +38,7 @@ MODEL_FLAGS="--attention_resolutions 32,16,8 --class_cond False --diffusion_step
 
 ### 🙏 Acknowledgments
 
-We gratefully acknowledge the following open-source projects which inspired or supported this work:
+We gratefully acknowledge the following open-source projects which inspired and supported this work:
 
 - Label-Efficient Semantic Segmentation with Diffusion Models [`yandex-research/ddpm-segmentation`](https://github.com/yandex-research/ddpm-segmentation)
 - FreqFusion: Frequency-aware Feature Fusion for Dense Image Prediction [`Linwei-Chen/FreqFusion`](https://github.com/Linwei-Chen/FreqFusion)
