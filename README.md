@@ -6,7 +6,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-%20-orange?style=flat-square)](https://pytorch.org)
 
 ### 📄 Abstract
-Retinal image segmentation is essential for analyzing retinal structures like vessels and diagnosing retinopathy. However, the inherent intricacy of the retina, along with annotation scarcity and data heterogeneity, presents prevalent challenges in creating accurate and generalizable deep learning models. Diffusion models, while initially developed for image generation, have recently shown great promise for visual perception by leveraging the learned internal representations. However, these diffusion representations, which spread across network blocks (space) and diffusion timesteps (time), potentially suffer from issues like stochastic semantic distortion and cumulative structural blurring, compromising their semantic fidelity to the source image. In this paper, by delving into the generalization property of diffusion models, we propose a novel anchoring inversion strategy to derive diffusion representations that are semantically faithful to the source image from the deterministic trajectory. Furthermore, we introduce a time-space frequency-aware aggregation interpreter (T&S-FreqAgg) to aggregate the multi-scale and multi-timestep diffusion representations in a frequency-aware way for Domain Generalizable Semantic Segmentation (DGSS). Extensive experiments on nine public retinal image datasets demonstrate the superiority of our proposed framework, DiffDGSSv2, over state-of-the-art methods. Our code will be available at: https://github.com/Xyporz/DiffDGSSv2.
+Retinal image segmentation is essential for analyzing retinal structures like vessels and diagnosing retinopathy. However, the inherent intricacy of the retina, along with annotation scarcity and data heterogeneity, presents prevalent challenges in creating accurate and generalizable deep learning models. Diffusion models, while initially developed for image generation, have recently shown great promise for visual perception by leveraging the learned internal representations. However, these diffusion representations, which spread across network blocks (space) and diffusion timesteps (time), potentially suffer from issues like stochastic semantic distortion and cumulative structural blurring, compromising their semantic fidelity to the source image. In this paper, by delving into the generalization property of diffusion models, we propose a novel anchoring inversion strategy to derive diffusion representations that are semantically faithful to the source image from the deterministic trajectory. Furthermore, we introduce a time-space frequency-aware aggregation interpreter (T&S-FreqAgg) to aggregate the multi-scale and multi-timestep diffusion representations in a frequency-aware way for Domain Generalizable Semantic Segmentation (DGSS). Extensive experiments on nine public retinal image datasets demonstrate the superiority of our proposed framework, DiffDGSSv2, over state-of-the-art methods.
 
 This codebase is largely based on and adapted from [yandex-research/ddpm-segmentation](https://github.com/yandex-research/ddpm-segmentation).
 
@@ -40,6 +40,15 @@ MODEL_FLAGS="--attention_resolutions 32,16,8 --class_cond False --diffusion_step
 
 ### 📚 Citation
 ```
+@inproceedings{xie2024diffdgss,
+  title={Diffdgss: Generalizable retinal image segmentation with deterministic representation from diffusion models},
+  author={Xie, Yingpeng and Qu, Junlong and Xie, Hai and Wang, Tianfu and Lei, Baiying},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={166--176},
+  year={2024},
+  organization={Springer}
+}
+
 @article{xie2025towards,
   title={Towards Semantically Faithful Diffusion Representation for Generalizable Retinal Image Segmentation},
   author={Xie, Yingpeng and Chen, Hao and Qin, Jing and Zhang, Yongtao and Dong, Lei and Du, Jie and Wang, Tianfu and Lei, Baiying},
