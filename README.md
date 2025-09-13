@@ -40,15 +40,6 @@ MODEL_FLAGS="--attention_resolutions 32,16,8 --class_cond False --diffusion_step
 
 ### 📚 Citation
 ```
-@inproceedings{xie2024diffdgss,
-  title={Diffdgss: Generalizable retinal image segmentation with deterministic representation from diffusion models},
-  author={Xie, Yingpeng and Qu, Junlong and Xie, Hai and Wang, Tianfu and Lei, Baiying},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={166--176},
-  year={2024},
-  organization={Springer}
-}
-
 @article{xie2025towards,
   title={Towards Semantically Faithful Diffusion Representation for Generalizable Retinal Image Segmentation},
   author={Xie, Yingpeng and Chen, Hao and Qin, Jing and Zhang, Yongtao and Dong, Lei and Du, Jie and Wang, Tianfu and Lei, Baiying},
