@@ -1,1 +1,29 @@
+{
+  "exp_dir": "pixel_classifiers/IDRiD/DRIVE/ddpm_1_10_50_100_500_1000_2000_3500",
+  "model_type": "ddpm",
+  
+  "category": "retinal",
+  "number_class": 2,
+  "ignore_label": 255,
+  "class": "DRIVE_1_10_50_100_500_1000_2000_3500",
 
+  "training_path": "datasets/DRIVE/train/",
+  "validation_path": "datasets/DRIVE/test/",
+  "testing_path": "datasets/DRIVE/test/",
+  "model_path": "EyePACS.pt",
+
+  "dim": [512, 512, 512],
+  "steps": [1, 10, 50, 100, 500, 1000, 2000, 3500],
+  "blocks": [11,12,13,14,15,16,17,18,19,20],
+
+  "model_num": 10,
+  "batch_size": 2,
+  "total_epoch": 100,
+  
+  "training_number": -1,
+  "testing_number": -1,
+
+  "upsample_mode":"bilinear",
+  "share_noise": true,
+  "input_activations": false
+}
