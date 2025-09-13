@@ -1,4 +1,4 @@
-## DiffDGSSv2: Towards Semantically Faithful Diffusion Representation for Generalizable Retinal Image Segmentation (TMI 2025)
+## Towards Semantically Faithful Diffusion Representation for Generalizable Retinal Image Segmentation (TMI 2025)
 
 [![Stars](https://img.shields.io/github/stars/Xyporz/DiffDGSSv2?style=flat-square)](https://github.com/Xyporz/DiffDGSSv2)
 [![Forks](https://img.shields.io/github/forks/Xyporz/DiffDGSSv2?style=flat-square)](https://github.com/Xyporz/DiffDGSSv2/fork)
