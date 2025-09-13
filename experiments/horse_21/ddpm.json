@@ -1,1 +1,31 @@
-
+{
+    "exp_dir": "pixel_classifiers/horse_21/ddpm_50_100_150",
+    "model_type": "ddpm",
+    
+    "category": "horse_21",
+    "number_class": 21,
+    "ignore_label": 255,
+	"class": "horse_21_50_100_150",
+  
+    "training_path": "datasets/horse_21/real/train",
+    "validation_path": "datasets/horse_21/real/test",
+    "testing_path": "datasets/horse_21/real/test",
+    "model_path": "lsun_horse.pt",
+  
+	"dim": [256, 256, 512],
+	"steps": [50, 100, 150],
+	"blocks": [5, 6, 7, 8, 12],
+  
+    "model_num": 10,
+    "batch_size": 2,
+    "max_training": 30,
+	"total_epoch": 100,
+    
+    "training_number": 30,
+    "testing_number": 30,
+  
+    "upsample_mode":"bilinear",
+    "share_noise": true,
+    "input_activations": false
+}
+  
